@@ -37,23 +37,26 @@ export default {
 			return this.$store.hasModule(['common', 'wallet'])
 		}
 	},
+	mounted() {
+		console.log('mounted SMPL_CHAIN_API', process.env.VUE_APP_SMPL_CHAIN_API)
+	},
 	async created() {
+		console.log('SMPL_CHAIN_API', process.env.SMPL_CHAIN_API)
+		const apiHost = process.env.VUE_APP_SMPL_CHAIN_API_HOST
+		const apiPort = process.env.VUE_APP_SMPL_CHAIN_API_PORT
+		const rpcHost = process.env.VUE_APP_SMPL_CHAIN_RPC_HOST
+		const rpcPort = process.env.VUE_APP_SMPL_CHAIN_RPC_PORT
+		const chainId = process.env.VUE_APP_SMPL_CHAIN_ID
 		await this.$store.dispatch(
 			'common/env/init',
 			{
-				apiNode: 'https://smpl-test-node1.s56.net:1318',
-				// apiNode: 'http://localhost:1317',
-				rpcNode: 'https://smpl-test-node1.s56.net:26658',
-				// rpcNode: 'http://localhost:26657',
-				wsNode: 'wss://smpl-test-node1.s56.net:26658/websocket',
-				// wsNode: 'ws://localhost:26657/websocket',
-				chainId: 'smpl-test',
-				// chainId: 'linchain',
-				addrPrefix: 'smpl',
-				// addrPrefix: 'lin',
+				apiNode: `https://${apiHost}:${apiPort}`,
+				rpcNode: `https://${rpcHost}:${rpcPort}`,
+				wsNode: `wss://${rpcHost}:${rpcPort}/websocket`,
+				chainId: `${chainId}`,
+				addrPrefix: `smpl`,
 				sdkVersion: 'Stargate',
-				getTXApi: 'https://smpl-test-node1.s56.net:26658/tx?hash=0x',
-				// getTXApi: 'http://localhost:26657/tx?hash=0x',
+				getTXApi: `https://${rpcHost}:${rpcPort}/tx?hash=0x`,
 				refresh: 10000
 			}
 		)
