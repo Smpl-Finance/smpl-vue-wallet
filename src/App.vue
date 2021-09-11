@@ -37,16 +37,17 @@ export default {
 			return this.$store.hasModule(['common', 'wallet'])
 		}
 	},
-	mounted() {
-		console.log('mounted SMPL_CHAIN_API', process.env.VUE_APP_SMPL_CHAIN_API)
-	},
 	async created() {
-		console.log('SMPL_CHAIN_API', process.env.SMPL_CHAIN_API)
 		const apiHost = process.env.VUE_APP_SMPL_CHAIN_API_HOST
 		const apiPort = process.env.VUE_APP_SMPL_CHAIN_API_PORT
 		const rpcHost = process.env.VUE_APP_SMPL_CHAIN_RPC_HOST
 		const rpcPort = process.env.VUE_APP_SMPL_CHAIN_RPC_PORT
 		const chainId = process.env.VUE_APP_SMPL_CHAIN_ID
+
+		console.log(`api host:port: ${apiHost}:${apiPort}`)
+		console.log(`rpc host:port: ${rpcHost}:${rpcPort}`)
+		console.log(`chainId: ${chainId}`)
+
 		await this.$store.dispatch(
 			'common/env/init',
 			{
