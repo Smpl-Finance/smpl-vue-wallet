@@ -1,1 +1,36 @@
 //Your custom styles here
+
+.background-cirle-gradient-1 {
+  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
+  height:90vh;
+  width: 90vw;
+  border-radius: 50%;
+  position: absolute;
+  top: -400px;
+  left: -10px;
+  z-index: -1;
+  transform: rotate(10deg)
+}
+.background-cirle-gradient-2 {
+  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
+  height:100vh;
+  width: 100vw;
+  border-radius: 60%;
+  position: absolute;
+  top: -470px;
+  left: -20px;
+  z-index: -2;
+  transform: rotate(10deg)
+}
+.background-cirle-gradient-3 {
+  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
+  height: 110vh;
+  width: 110vw;
+  border-radius: 70%;
+  position: absolute;
+  top: -540px;
+  left: -20px;
+  transform: rotate(10deg);
+  z-index: -3;
+
+}

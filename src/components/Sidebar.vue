@@ -1,9 +1,10 @@
-<template>
+<template style='background:blue'>
 	<SpSidebar
 		v-on:sidebar-open="sidebarOpen = true"
 		v-on:sidebar-close="sidebarOpen = false"
 	>
-		<template v-slot:default>
+		<img src='https://smpl.sfo3.cdn.digitaloceanspaces.com/logos/smpl-fnnc-logo-bird-right.png' style='width: 100px; height: auto'/>
+<!--		<template v-slot:default>-->
 			<SpLinkIcon link="/" text="Dashboard" icon="Dashboard" />
 <!--			<SpLinkIcon link="/types" text="Custom Type" icon="Form" />-->
 <!--			<SpLinkIcon link="/relayers" text="Relayers" icon="Transactions" />-->
@@ -14,7 +15,7 @@
 <!--				text="Documentation"-->
 <!--				icon="Docs"-->
 <!--			/>-->
-		</template>
+<!--		</template>-->
 		<template v-slot:footer>
 			<SpStatusAPI :showText="sidebarOpen" />
 			<SpStatusRPC :showText="sidebarOpen" />
