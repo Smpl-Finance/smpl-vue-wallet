@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<div class="container">
-			<SpTokenSend :address="address" style='background: #274D94'/>
-			<SpTransferList :address="address"  style='background-color: #cbb26a'/>
+			<SpTokenSend :address="address" class='token-send'/>
+			<SpTransferList :address="address"/>
 		</div>
 	</div>
 </template>
