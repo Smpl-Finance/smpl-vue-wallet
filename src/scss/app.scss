@@ -9,7 +9,10 @@
 .token-send {
   .sp-token-send {
     .sp-box {
-      background: #cbb26a;
+      background: linear-gradient(to right, #bb8e52, #fbf39f);
+    }
+    .sp-box-header {
+      opacity: 1;
     }
   }
   .sp-assets {
