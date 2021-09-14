@@ -3,6 +3,19 @@
 .sp-layout {
   .sp-sidebar {
     background: #274D94;
+    color: white;
+  }
+
+  .sp-status-api__text {
+    opacity: 1 !important;
+  }
+
+  .sp-status-rpc__text {
+    opacity: 1 !important;
+  }
+
+  .sp-status-ws__text {
+    opacity: 1 !important;
   }
 }
 
@@ -11,20 +24,27 @@
     .sp-box {
       background: linear-gradient(to right, #bb8e52, #fbf39f);
     }
+
     .sp-box-header {
       opacity: 1;
     }
   }
+
   .sp-assets {
+    font-weight: bold;
+
     .sp-box {
-      background: #274D94;
+      background-image: linear-gradient(to right, #274D94, #86b3f6);
+      color: white;
     }
   }
 }
 
 .sp-transfer-list {
   .sp-box {
-    background: #274D94;
+    background-image: linear-gradient(to right, #274D94, #86b3f6);
+    color: white;
+    opacity: 1;
   }
 }
 
