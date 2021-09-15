@@ -1,0 +1,23 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: testnet-staging.smplfinance.com
+  type: PRIMARY
+name: smpl-vue-wallet
+region: sfo
+services:
+- build_command: yarn build
+  environment_slug: node-js
+  github:
+    branch: staging
+    deploy_on_push: true
+    repo: Smpl-Finance/smpl-vue-wallet
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: basic-xs
+  name: smpl-vue-wallet
+  routes:
+  - path: /
+  run_command: yarn serve -- --mode=$SMPL_WALLET_ENV
+  source_dir: /

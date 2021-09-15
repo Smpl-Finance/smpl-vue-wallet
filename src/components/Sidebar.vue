@@ -1,26 +1,17 @@
-<template style='background:blue'>
+<template>
 	<SpSidebar
-		v-on:sidebar-open="sidebarOpen = true"
-		v-on:sidebar-close="sidebarOpen = false"
+		v-on:sidebar-open='sidebarOpen = true'
+		v-on:sidebar-close='sidebarOpen = false'
 	>
-		<img src='https://smpl.sfo3.cdn.digitaloceanspaces.com/logos/smpl-fnnc-logo-bird-right.png' style='width: 100px; height: auto'/>
-<!--		<template v-slot:default>-->
-			<SpLinkIcon link="/" text="Dashboard" icon="Dashboard" />
-<!--			<SpLinkIcon link="/types" text="Custom Type" icon="Form" />-->
-<!--			<SpLinkIcon link="/relayers" text="Relayers" icon="Transactions" />-->
-<!--			<div class="sp-dash"></div>-->
-<!--			<SpLinkIcon-->
-<!--				href="https://github.com/tendermint/starport"-->
-<!--				target="_blank"-->
-<!--				text="Documentation"-->
-<!--				icon="Docs"-->
-<!--			/>-->
-<!--		</template>-->
+		<template v-slot:default>
+			<img src='https://smpl.sfo3.cdn.digitaloceanspaces.com/logos/smpl-fnnc-logo-bird-right.png'
+					 style='width: 150px; height: auto; margin-left: 20px' />
+		</template>
 		<template v-slot:footer>
-			<SpStatusAPI :showText="sidebarOpen" />
-			<SpStatusRPC :showText="sidebarOpen" />
-			<SpStatusWS :showText="sidebarOpen" />
-			<div class="sp-text">Build: v0.3.8</div>
+			<SpStatusAPI :showText='sidebarOpen' />
+			<SpStatusRPC :showText='sidebarOpen' />
+			<SpStatusWS :showText='sidebarOpen' />
+			<div class='sp-text'>Build: v0.3.8</div>
 		</template>
 	</SpSidebar>
 </template>

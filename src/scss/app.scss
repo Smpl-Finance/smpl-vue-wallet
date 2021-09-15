@@ -1,8 +1,62 @@
 //Your custom styles here
 
+.sp-layout {
+  .sp-sidebar {
+    background: #274D94;
+    color: white;
+  }
+
+  .sp-status-api__text {
+    opacity: 1 !important;
+  }
+
+  .sp-status-rpc__text {
+    opacity: 1 !important;
+  }
+
+  .sp-status-ws__text {
+    opacity: 1 !important;
+  }
+}
+
+.token-send {
+  .sp-token-send {
+    .sp-box {
+      background: linear-gradient(to right, #bb8e52, #fbf39f);
+    }
+
+    .sp-box-header {
+      opacity: 1;
+    }
+  }
+
+  .sp-assets {
+    font-weight: bold;
+
+    .sp-box {
+      background-image: linear-gradient(to right, #274D94, #86b3f6);
+      color: white;
+    }
+  }
+}
+
+.sp-transfer-list {
+  .sp-box {
+    background-image: linear-gradient(to right, #274D94, #86b3f6);
+    color: white;
+    opacity: 1;
+  }
+}
+
+.sp-denom-marker {
+  background-image: url("https://smpl.sfo3.cdn.digitaloceanspaces.com/logos/smpl-fnnc-logo-bird-right.png");
+  background-size: 12px auto;
+  background-repeat: no-repeat;
+}
+
 .background-cirle-gradient-1 {
-  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
-  height:90vh;
+  background-image: linear-gradient(to bottom left, #cbb26a, #cbb26a, #274D94);
+  height: 90vh;
   width: 90vw;
   border-radius: 50%;
   position: absolute;
@@ -11,9 +65,10 @@
   z-index: -1;
   transform: rotate(10deg)
 }
+
 .background-cirle-gradient-2 {
-  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
-  height:100vh;
+  background-image: linear-gradient(to bottom left, #cbb26a, #cbb26a, #274D94);
+  height: 100vh;
   width: 100vw;
   border-radius: 60%;
   position: absolute;
@@ -22,8 +77,9 @@
   z-index: -2;
   transform: rotate(10deg)
 }
+
 .background-cirle-gradient-3 {
-  background-image: linear-gradient(to bottom left, #cbb26a,#cbb26a,#274D94);
+  background-image: linear-gradient(to bottom left, #cbb26a, #cbb26a, #274D94);
   height: 110vh;
   width: 110vw;
   border-radius: 70%;
