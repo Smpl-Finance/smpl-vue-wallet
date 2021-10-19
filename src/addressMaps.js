@@ -9,7 +9,7 @@ export const addressMaps = {
 		{
 			name: 'Casey Coones',
 			custodialAddress: 'smpl1w2tved2fnfeg4jfkylgfympzh7x6zt37nh0wa5',
-			nonCustodialAddress: 'smpl1ehttfume90c7mvswfwq33agta5476vrsvckczm',
+			nonCustodialAddress: 'smpl14ul4n7zqlen2q2rn6ca02ehchqau3tk5sd7y3n',
 			founder: true
 		},
 		{
@@ -40,6 +40,13 @@ export const addressMaps = {
 			name: 'Gabrielle Reese',
 			custodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
 			nonCustodialAddress: 'smpl13ythd98zcndk0095y24x3gpu7k58he898a2cqx',
+
+			founder: true
+		},
+		{
+			name: 'Gabrielle Reese',
+			custodialAddress: 'smpl1ap8wd0fddgaclcavk97yxvv5qg64ua89h8jsn7',
+			nonCustodialAddress: 'smpl1sx8yuazcfee74pjdgm8kh7xc4v6j462e2c7xfn',
 
 			founder: true
 		}
