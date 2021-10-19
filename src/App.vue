@@ -22,6 +22,7 @@ body {
 import './scss/app.scss'
 import '@starport/vue/lib/starport-vue.css'
 import Sidebar from './components/Sidebar'
+import { addressMaps } from './addressMaps.js'
 
 export default {
 	components: {
@@ -43,25 +44,39 @@ export default {
 		const rpcHost = process.env.VUE_APP_SMPL_CHAIN_RPC_HOST
 		const rpcPort = process.env.VUE_APP_SMPL_CHAIN_RPC_PORT
 		const chainId = process.env.VUE_APP_SMPL_CHAIN_ID
+		const webProtocol = process.env.VUE_APP_SMPL_CHAIN_WEB_PROTO
+		const websocketProtocol = process.env.VUE_APP_SMPL_CHAIN_WEBSOCKET_PROTO
 
-		console.log(`api host:port: ${apiHost}:${apiPort}`)
-		console.log(`rpc host:port: ${rpcHost}:${rpcPort}`)
-		console.log(`chainId: ${chainId}`)
 
 		await this.$store.dispatch(
 			'common/env/init',
 			{
-				apiNode: `https://${apiHost}:${apiPort}`,
-				rpcNode: `https://${rpcHost}:${rpcPort}`,
-				wsNode: `wss://${rpcHost}:${rpcPort}/websocket`,
+				apiNode: `${webProtocol}://${apiHost}:${apiPort}`,
+				rpcNode: `${webProtocol}://${rpcHost}:${rpcPort}`,
+				wsNode: `${websocketProtocol}://${rpcHost}:${rpcPort}/websocket`,
 				chainId: `${chainId}`,
 				addrPrefix: `smpl`,
 				sdkVersion: 'Stargate',
-				getTXApi: `https://${rpcHost}:${rpcPort}/tx?hash=0x`,
+				getTXApi: `${webProtocol}://${rpcHost}:${rpcPort}/tx?hash=0x`,
 				refresh: 10000
 			}
 		)
 		this.initialized = true
+
+		this.$store.subscribe(
+			(mutation, state) => {
+				if (mutation.type !== 'cosmos.bank.v1beta1/QUERY') {
+					return
+				}
+				const nonCustodialAddress = this.$store.getters['common/wallet/address']
+				const custodialAddress = addressMaps[chainId].find(e => e.nonCustodialAddress === nonCustodialAddress)
+
+				if (!custodialAddress) {
+					return
+				}
+				this.$store.dispatch('getCustodialBalance', custodialAddress)
+			}
+		)
 	},
 	errorCaptured(err) {
 		console.log(err)
