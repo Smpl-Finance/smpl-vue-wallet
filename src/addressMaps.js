@@ -9,37 +9,38 @@ export const addressMaps = {
 		{
 			name: 'Casey Coones',
 			custodialAddress: 'smpl1w2tved2fnfeg4jfkylgfympzh7x6zt37nh0wa5',
-			nonCustodialAddress: 'smpl1usm603r30nuv5d8tvvsx758dflj7sr95mrzcw3',
+			nonCustodialAddress: 'smpl1ehttfume90c7mvswfwq33agta5476vrsvckczm',
 			founder: true
 		},
 		{
 			name: 'Caam Finch',
 			custodialAddress: 'smpl1usm603r30nuv5d8tvvsx758dflj7sr95mrzcw3',
-			nonCustodialAddress: 'smpl1n9rm6xg7p4qufmwd86duk2d38lj7vntyd6n32v',
+			nonCustodialAddress: 'smpl1nlq4xeymjv8kvg7uev02lrpqa6xepclgykt99w',
 			founder: true
 		},
 		{
 			name: 'Mike Oates',
 			custodialAddress: 'smpl1n9rm6xg7p4qufmwd86duk2d38lj7vntyd6n32v',
-			nonCustodialAddress: 'smpl1pks7m4xuxup46l37j8mc5793z9smke9t0uulh4',
+			nonCustodialAddress: 'smpl1nlq4xeymjv8kvg7uev02lrpqa6xepclgykt99w',
 			founder: true
 		},
 		{
 			name: 'Josh Daniels',
 			custodialAddress: 'smpl1pks7m4xuxup46l37j8mc5793z9smke9t0uulh4',
-			nonCustodialAddress: 'smpl1v9fg8lrxmhvpt4n3dsxayqtu8dfe8s66h2mcr4',
+			nonCustodialAddress: 'smpl1qzx0jgvvyxh8yn3h52xqjpl4gspmthhccg7fsa',
 			founder: true
 		},
 		{
 			name: 'Megan Muirhead',
 			custodialAddress: 'smpl1v9fg8lrxmhvpt4n3dsxayqtu8dfe8s66h2mcr4',
-			nonCustodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
+			nonCustodialAddress: 'smpl16shv79sy46a7mt35u9lgly0xk048xlfuf5cw3y',
 			founder: true
 		},
 		{
 			name: 'Gabrielle Reese',
 			custodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
-			nonCustodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
+			nonCustodialAddress: 'smpl13ythd98zcndk0095y24x3gpu7k58he898a2cqx',
+
 			founder: true
 		}
 	],
