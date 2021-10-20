@@ -15,7 +15,7 @@ export const addressMaps = {
 		{
 			name: 'Caam Finch',
 			custodialAddress: 'smpl1usm603r30nuv5d8tvvsx758dflj7sr95mrzcw3',
-			nonCustodialAddress: 'smpl1nlq4xeymjv8kvg7uev02lrpqa6xepclgykt99w',
+			nonCustodialAddress: 'smpl1ehttfume90c7mvswfwq33agta5476vrsvckczm',
 			founder: true
 		},
 		{
@@ -48,7 +48,13 @@ export const addressMaps = {
 			custodialAddress: 'smpl1ap8wd0fddgaclcavk97yxvv5qg64ua89h8jsn7',
 			nonCustodialAddress: 'smpl1sx8yuazcfee74pjdgm8kh7xc4v6j462e2c7xfn',
 			founder: false
-		}
+		},
+		{
+			name: 'Don Reese',
+			custodialAddress: 'smpl1mccn98vn08a8xgwkkyc8qffhh58rvun5vvqfyp',
+			nonCustodialAddress: 'smpl18lxktvh4fruy5a6g9qq26sws36an2tu8kslqq2',
+			founder: false
+		},
 	],
 	'smpl-test': [
 		{
