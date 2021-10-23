@@ -40,7 +40,6 @@ export const addressMaps = {
 			name: 'Gabrielle Reese',
 			custodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
 			nonCustodialAddress: 'smpl13ythd98zcndk0095y24x3gpu7k58he898a2cqx',
-
 			founder: true
 		},
 		{
@@ -50,11 +49,29 @@ export const addressMaps = {
 			founder: false
 		},
 		{
+			name: 'Jonathan Stoddard',
+			custodialAddress: 'smpl1256xvd0ttrrpljaunn2z7jhhpdnf5x9lgr7skx',
+			nonCustodialAddress: 'smpl1z0w7u524a5znh06l3m9gv2v8d4lrgek3h6uav7',
+			founder: false
+		},
+		{
+			name: 'Moshe Cohen',
+			custodialAddress: 'smpl1y46ucmre7rxad4p2p8zg4nphqeqj9ywnye4krm',
+			nonCustodialAddress: 'smpl1pq9pnxvjjwrvuac3lqv5wkynj2kr8qm9gm79wj',
+			founder: false
+		},
+		{
 			name: 'Don Reese',
 			custodialAddress: 'smpl1mccn98vn08a8xgwkkyc8qffhh58rvun5vvqfyp',
 			nonCustodialAddress: 'smpl18lxktvh4fruy5a6g9qq26sws36an2tu8kslqq2',
 			founder: false
 		},
+		{
+			name: 'Matthew Ellenburger',
+			custodialAddress: 'smpl1taja6u6hc7lghk939hkcdqn66q2yjsuxdpk9ju',
+			nonCustodialAddress: 'smpl1umfylemh5nx7devx3q5mjdjaklnxyeh9pnkuey',
+			founder: false
+		}
 	],
 	'smpl-test': [
 		{
