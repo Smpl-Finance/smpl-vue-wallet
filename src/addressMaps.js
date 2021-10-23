@@ -40,7 +40,6 @@ export const addressMaps = {
 			name: 'Gabrielle Reese',
 			custodialAddress: 'smpl18k6y8jcqtr9j62uj3ju07075jel29g8jswsn3z',
 			nonCustodialAddress: 'smpl13ythd98zcndk0095y24x3gpu7k58he898a2cqx',
-
 			founder: true
 		},
 		{
@@ -67,6 +66,12 @@ export const addressMaps = {
 			nonCustodialAddress: 'smpl18lxktvh4fruy5a6g9qq26sws36an2tu8kslqq2',
 			founder: false
 		},
+		{
+			name: 'Matthew Ellenburger',
+			custodialAddress: 'smpl1taja6u6hc7lghk939hkcdqn66q2yjsuxdpk9ju',
+			nonCustodialAddress: 'smpl1umfylemh5nx7devx3q5mjdjaklnxyeh9pnkuey',
+			founder: false
+		}
 	],
 	'smpl-test': [
 		{
