@@ -71,7 +71,111 @@ export const addressMaps = {
 			custodialAddress: 'smpl1taja6u6hc7lghk939hkcdqn66q2yjsuxdpk9ju',
 			nonCustodialAddress: 'smpl1umfylemh5nx7devx3q5mjdjaklnxyeh9pnkuey',
 			founder: false
-		}
+		},
+		{
+			name: 'Kathy Muirhead',
+			custodialAddress: 'smpl174q2steg974xv498say39e2x6c3pq4w5vkw5vk',
+			nonCustodialAddress: 'smpl1v125egzh4q6mha7xr8rwpcy0j01fnpazjvtg5p',
+			founder: false
+		},
+		{
+			name: 'Tim Ellenberger',
+			custodialAddress: 'smpl1wujl83vp2tvleq7jm6trkse5gwq7xplfajqjas',
+			nonCustodialAddress: 'smpl1cy0wqksuek4yxmyeqqjq0vehdu62wxvh4zwawm',
+			founder: false
+		},
+		{
+			name: 'Maggie Brandt 1',
+			custodialAddress: 'smpl1wya5r2k64cy9dtu3je29cqppfzl6tlhfh2sx4f',
+			nonCustodialAddress: 'smpl12uuc37nwn4f02z4a5mru59scx7x7uqryrs8gex',
+			founder: false
+		},
+		{
+			name: 'Maggie Brandt 2',
+			custodialAddress: 'smpl1g27y6cudeqh3x9s6mg4xjqnpvum6y3nh5dufn5',
+			nonCustodialAddress: 'smpl16hkj20mdtlcv83x0pxfrjr23vnqqvvx7wc8p6a',
+			founder: false
+		},
+		{
+			name: 'Maggie Brandt 3',
+			custodialAddress: 'smpl1hfxag3csjhj2wum9zunwzlcszuudkrx0569dsl',
+			nonCustodialAddress: 'smpl1ulz2mmtnfhnmv6xcuyamnxt0d0sqknlmufwadv',
+			founder: false
+		},
+		{
+			name: 'Robert Henderson',
+			custodialAddress: 'smpl124d3am2ah92xxtc407nau83pd0l7ptdtnxs2pl',
+			nonCustodialAddress: 'smpl1lq3c39h5vqtp5exh9j8drgx29q29kk22gugxm5',
+			founder: false
+		},
+		{
+			name: 'Mike Fox',
+			custodialAddress: 'smpl1r509ak2meffrqgl2n4tvzrd4zhx9dqwfszn9nx',
+			nonCustodialAddress: 'smpl1l2f6kyygkgutq65xy66nhn9673qcf6jnn37v7m',
+			founder: false
+		},
+		{
+			name: 'Michael Barr',
+			custodialAddress: 'smpl1hsmmmqdssfxwqmj9aynq87pd3phe08584hap5y',
+			nonCustodialAddress: 'smpl1wgqgvtc4qmykg55zc682m963pqs7e85lwlqlq',
+			founder: false
+		},
+		{
+			name: 'Trevor Oneal',
+			custodialAddress: 'smpl1m0sk4t7exk2vxn0w2fapzsfp7g2re5k8zgyefy',
+			nonCustodialAddress: 'SMPL1KDS8GR05A67K7QMQTEE724EMZXFWXDRC86Y0QW',
+			founder: false
+		},
+		{
+			name: 'Darren Walker',
+			custodialAddress: 'smpl1mve9ml4u84dx3yntzl52s3gvzh3g70jm3nnqhp',
+			nonCustodialAddress: 'smpl1lvqh4kurzd2tvqlh8vkdwpm0fwu6eyssy60jzf',
+			founder: false
+		},
+		{
+			name: 'Josh Lyman',
+			custodialAddress: 'smpl17hevgscaz4rlvd600pfhjy2myze09g5fjcdnae',
+			nonCustodialAddress: 'smpl1w5qcqxyzl0dewglldeq6jk892dxkhr6f6qsup6',
+			founder: false
+		},
+		{
+			name: 'Tony Holman',
+			custodialAddress: 'smpl14sl6xrx6fm6azha8jd6jzv2qgl5f9cy6cs3yxl',
+			nonCustodialAddress: 'SMPL1MQDLTN0GGKGUWJ8AKDX8X7UQ8SC0KXUYUTKC9H',
+			founder: false
+		},
+		{
+			name: 'Benjamin Oates',
+			custodialAddress: 'smpl16qg7um0qtafnqkdp4h4uzd8nttj68wx7s4gf2r',
+			nonCustodialAddress: 'smpl1jjytd8gm5lth0fjd02677dfeffk843gesw3xpt',
+			founder: false
+		},
+		{
+			name: 'Michael Daniels',
+			custodialAddress: 'smpl150uqp9ews78kldn33rp5june2jew87lgajmsca',
+			nonCustodialAddress: 'smpl16sgf3ypw32j8pzptwhen4khxecxzzw8j5g92s2',
+			founder: false
+		},
+		{
+			name: 'Somsak Hendricks',
+			custodialAddress: 'smpl1yx3manrwn8p028up2hm6lqqnzesvmm5lntehuh',
+			nonCustodialAddress: 'smpl1p55fth7c4zntlacxmlnv33mv93sjxurkuhvc6e',
+			founder: false
+		},
+		{
+			name: 'Ernie Muirhead',
+			custodialAddress: '',
+			nonCustodialAddress: 'smpl1v125egzh4q6mha7xr8rwpcy0j01fnpazjvtg5p',
+			founder: false
+		},
+
+
+		{
+			name: '',
+			custodialAddress: '',
+			nonCustodialAddress: '',
+			founder: false
+		},
 	],
 	'smpl-test': [
 		{
