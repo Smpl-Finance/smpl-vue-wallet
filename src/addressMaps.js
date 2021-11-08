@@ -168,8 +168,72 @@ export const addressMaps = {
 			nonCustodialAddress: 'smpl1v125egzh4q6mha7xr8rwpcy0j01fnpazjvtg5p',
 			founder: false
 		},
-
-
+		{
+			name: 'Skyler Anderson',
+			custodialAddress: 'smpl1w570vlxn3ka556qaawgwf2vkgcz6vderjweczy',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'BMC Marketing',
+			custodialAddress: 'smpl1g6pgx00ue0u2hhwp5c87tepw77h9lcjryhmd96',
+			nonCustodialAddress: 'smpl1z9sjd3a5l92wjcewfnmzys36q29pt2rhh6n7ts',
+			founder: false
+		},
+		{
+			name: 'Jacob Daniels',
+			custodialAddress: 'smpl14elgxgxrd5d97trrgh9uw5zwhypy7ay5m39sny',
+			nonCustodialAddress: 'smpl1tw9frjggtlt2zccdp2ry0304jdw5u7yejt62gt',
+			founder: false
+		},
+		{
+			name: 'Ryan Kenny',
+			custodialAddress: 'smpl12vjh6geya84cextw0gz4zn4dx8w6k9u7y26ce5',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'Sean Williams',
+			custodialAddress: 'smpl1paeexvkxa57cq9uckxwvqgkfhxnyvkul344ftr',
+			nonCustodialAddress: 'smpl1kyz3d3p8yf50urf3wy5v6tvr33rfvlsrulsfmq',
+			founder: false
+		},
+		{
+			name: 'DEPOSIT ID NUMBER 861532',
+			custodialAddress: 'smpl1gh3ed7mn8agc26vwvlyke8g07pa364yp43zgre',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'Sheila Vance',
+			custodialAddress: 'smpl10v88e9c58lf9262ufl85g0sgxf62yae4pw8598',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'Rachael Bates',
+			custodialAddress: 'smpl1wxtr3ydzd4vvu836p5fn780z7j0k54w3jfq92d',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'Casey Schow',
+			custodialAddress: 'smpl1uxpx9ctfh3rm9v2yw5c2jc7vs85kfha298t49e',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: 'Iopa Wolman',
+			custodialAddress: 'smpl13hh7wj6k69nahqeqqx3dy38jh6vxzwlwrwp9fj',
+			nonCustodialAddress: '',
+			founder: false
+		},
+		{
+			name: '',
+			custodialAddress: '',
+			nonCustodialAddress: '',
+			founder: false
+		},
 		{
 			name: '',
 			custodialAddress: '',
