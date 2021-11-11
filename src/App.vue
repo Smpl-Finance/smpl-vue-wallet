@@ -69,7 +69,9 @@ export default {
 					return
 				}
 				const nonCustodialAddress = this.$store.getters['common/wallet/address']
-				const custodialAddress = addressMaps[chainId].find(e => e.nonCustodialAddress === nonCustodialAddress)
+				const custodialAddress = addressMaps[chainId].find(
+					e => e.nonCustodialAddress?.toLowerCase() === nonCustodialAddress?.toLowerCase()
+				)
 
 				if (!custodialAddress) {
 					return
