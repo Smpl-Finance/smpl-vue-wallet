@@ -123,7 +123,7 @@ export const addressMaps = {
 		{
 			name: 'Trevor Oneal',
 			custodialAddress: 'smpl1m0sk4t7exk2vxn0w2fapzsfp7g2re5k8zgyefy',
-			nonCustodialAddress: 'SMPL1KDS8GR05A67K7QMQTEE724EMZXFWXDRC86Y0QW',
+			nonCustodialAddress: 'smpl1kds8gr05a67k7qmqtee724emzxfwxdrc86y0qw',
 			founder: false
 		},
 		{
@@ -164,14 +164,14 @@ export const addressMaps = {
 		},
 		{
 			name: 'Ernie Muirhead',
-			custodialAddress: '',
-			nonCustodialAddress: 'smpl1v125egzh4q6mha7xr8rwpcy0j01fnpazjvtg5p',
+			custodialAddress: 'smpl17rqhljhmavqvq409xcxgud6pmmrgkenu77esae',
+			nonCustodialAddress: 'smpl13zcyafjp3lzamunqvy0hj2lxe9a4pw4qjqeqtp',
 			founder: false
 		},
 		{
 			name: 'Skyler Anderson',
 			custodialAddress: 'smpl1w570vlxn3ka556qaawgwf2vkgcz6vderjweczy',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl125kppjmhvzfj0c9vqfs7hma9h8a0m6a2lahz20',
 			founder: false
 		},
 		{
@@ -189,7 +189,7 @@ export const addressMaps = {
 		{
 			name: 'Ryan Kenny',
 			custodialAddress: 'smpl12vjh6geya84cextw0gz4zn4dx8w6k9u7y26ce5',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl17h28a4d646f2tvsm33rr2xjf30rtpz6s4x2llu',
 			founder: false
 		},
 		{
@@ -219,19 +219,19 @@ export const addressMaps = {
 		{
 			name: 'Casey Schow',
 			custodialAddress: 'smpl1uxpx9ctfh3rm9v2yw5c2jc7vs85kfha298t49e',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl16dlnruylp0r7tccxsv0nzfmjgdrhu0pmdnkqqt',
 			founder: false
 		},
 		{
 			name: 'Iopa Wolman',
 			custodialAddress: 'smpl13hh7wj6k69nahqeqqx3dy38jh6vxzwlwrwp9fj',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl1qedjr3cem64dza98xgf866hd45r89z83s3hg59',
 			founder: false
 		},
 		{
-			name: '',
-			custodialAddress: '',
-			nonCustodialAddress: '',
+			name: 'Jake Oates',
+			custodialAddress: 'smpl1ezadtj96w7rq35h48gu40sgc9qwjp440ke9vmh',
+			nonCustodialAddress: 'smpl1x6mz58v8ds0g3hms8y6vcvmzp5wn7xlqtvey5a',
 			founder: false
 		},
 		{
