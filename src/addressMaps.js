@@ -201,7 +201,7 @@ export const addressMaps = {
 		{
 			name: 'DEPOSIT ID NUMBER 861532',
 			custodialAddress: 'smpl1gh3ed7mn8agc26vwvlyke8g07pa364yp43zgre',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl17ry9kq3pdzymlh9vzef2gc9g3rj95yumz33t0s',
 			founder: false
 		},
 		{
@@ -213,7 +213,7 @@ export const addressMaps = {
 		{
 			name: 'Rachael Bates',
 			custodialAddress: 'smpl1wxtr3ydzd4vvu836p5fn780z7j0k54w3jfq92d',
-			nonCustodialAddress: '',
+			nonCustodialAddress: 'smpl10ry5ecage4a47cv2edfnmcztjas6zwj6caat4a',
 			founder: false
 		},
 		{
