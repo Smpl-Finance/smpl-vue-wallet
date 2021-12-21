@@ -45,7 +45,7 @@ export const addressMaps = {
 		{
 			name: 'Joe Porto',
 			custodialAddress: 'smpl1ap8wd0fddgaclcavk97yxvv5qg64ua89h8jsn7',
-			nonCustodialAddress: 'smpl1sx8yuazcfee74pjdgm8kh7xc4v6j462e2c7xfn',
+			nonCustodialAddress: 'smpl1d0xlfwuk9prv83gsqpgeyx93zdpag08frmlgvr',
 			founder: false
 		},
 		{
